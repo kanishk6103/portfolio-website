@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta name="viewport" charset="utf-8">
+  <title>Portfolio</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <section id="title">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <a class="navbar-brand" href="#title"><img class="brand-logo" src="images/logo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#title">Home<span class="sr-only sr-only-focusable"></span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about_me">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#hobbies">Hobbies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#music">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact_me">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-lg-6">
+          <h1 class="main-heading">Hey!</h1><br><h1 class="main-heading">I am Kanishk<span class="last-name"> Tiwari</span> .</h1>
+          <h3 class="main-heading sub-heading">I like <span
+               class="txt-rotate"
+               data-period="2000"
+               data-rotate='[ "coding.","gaming.", "editing.", "web development.", "to play football.", "3D modeling." ]'></span></h3>
+          <!-- <div class="container"><div class="typed-out">editing.</div></div> -->
+      </div>
+
+      <div class="col-lg-6">
+        <img class="my-image" src="images/me-art.jpg" alt="me">
+      </div>
+    </div>
+  </div>
+  </section>
+  <section id="about_me">
+    <div class="container-fluid about-container">
+      <!-- <div class="col-image">
+      <img src="images/col1.jpg" alt="background-img">
+      </div> -->
+    <h1 class="main-heading about">About Me</h1>
+    <p class="about-para">I am Kanishk Tiwari, a student of Institute of Engineering Technology, DAVV pursuring my B. Tech. degree in Information Technology and I am kinda new to web development and I love designing and creative stuff! </p>
+  </div>
+  </section>
+
+  <section id="skills">
+    <div class="container-fluid skills-container">
+    <h1 class="main-heading about">Skills</h1>
+    <h3 class="skill-head">On the programming side,</h3>
+    <p class="skills-para">I have learnt python with random, mathplotlib, numpy libraries, HTML, CSS with bootstrap library, JavaScript with jQuery library, C++ & DSA.</p>
+     <h3 class="skill-head">on the creative side,</h3>
+     <p class="skills-para">I am proficient with Adobe Photoshop, Adobe Lightroom, Adobe Illustrator, Adobe After Effects, Adobe Premiere Pro, Blender</p>
+  </div>
+
+  </section>
+  <section id="hobbies">
+    <div class="container-fluid hobbies-container">
+    <h1 class="main-heading hobbies">Hobbies</h1>
+    <p class="hobbies-para">My hobbies include playing video games, making art, I really love exploring and learning about space, making 3d models and well, watching anime.</p>
+      </div>
+  </section>
+  <section id="music">
+    <div class="container-fluid">
+    <h1 class="main-heading music">Music I like,</h1>
+    <p class="hobbies-para">I really like hip-hop, rap songs, there are few artists I like in particular.</p>
+    <div class="row">
+      <div class="col-lg-4 feature-box"><a href="https://open.spotify.com/playlist/37i9dQZF1DWYnx77Gg1Rgu#42" class="music-link"><img src="images/music/jw1.jpg" alt="juice-wrld" class="music-artist">
+        <h3 class="music-artist-text">JUICE WRLD</h3></a>
+      </div>
+      <div class="col-lg-4 feature-box"><a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO0AnZXW#42" class="music-link"><img src="images/music/x1.png" alt="xxxtentacion" class="music-artist">
+        <h3 class="music-artist-text">XXXTENTACION</h3></a>
+      </div>
+      <div class="col-lg-4 feature-box">
+        <a href="https://open.spotify.com/artist/5C1S9XwxMuuCciutwMhp5t#42" class="music-link"><img src="images/music/kr1.jpg" alt="krsna" class="music-artist">
+        <h3 class="music-artist-text">KR$NA</h3></a>
+      </div>
+    </div>
+      </div>
+  </section>
+  <section id="contact_me">
+
+  </section>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="scripts.js" charset="utf-8"></script>
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+body{
+  width: 100%;
+}
+
+
+/* **************************************//* TOP SECTION *//**********************************/
+ul{
+    list-style-type: none;
+}
+
+#title {
+  background-color: black;
+  color: white;
+  height: 1013px;
+}
+
+li{
+  display: inline;
+  color: white;
+  margin: 0px 30px;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.main-heading{
+  position: relative;
+  left: 100px;
+  top: 200px;
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+.sub-heading{
+  margin-top: 20px;
+  font-weight: lighter;
+  margin-right: 0;
+  width: auto;
+  letter-spacing: 3px;
+  font-size: 2.2rem;
+}
+
+.last-name{
+  color: #BC002D;
+}
+
+.container-fluid {
+  padding: 3% 15% 12%;
+}
+
+.my-image{
+  width:600px;
+  height: 600px;
+  border-radius: 800px;
+  position: relative;
+  left: 100px;
+  top:75px;
+}
+
+.nav-link:hover{
+  color:#BC002D;
+}
+.navbar-nav>.active>a{
+  color:#BC002D;
+}
+
+.container-fluid{
+  padding: 0px;
+}
+
+.navbar-nav{
+  margin-left: auto;
+  font-size: 1.18rem;
+}
+
+.navbar-brand{
+  margin: 0 30px;
+  font-size: 2.5rem;
+}
+.brand-logo{
+  width: 300px;
+  height:90px;
+}
+
+
+/**************************************//*  About Me *//*******************************/
+
+
+#about_me{
+    /* background-image: url(images/col1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode:luminosity;
+    background-size: cover; */
+
+    /* background-color: white; */
+}
+
+
+
+.about{
+  text-align: center;
+  top: 50px;
+  left: 0;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.about-para{
+  text-align: center;
+  font-weight:normal;
+  padding: 100px 400px;
+  margin-right: 0;
+  width: auto;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  color: black;;
+  position: relative;
+  /* z-index: 1; */
+}
+
+.about-container{
+  position: relative;
+}
+.about-container::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.6;
+  background-image: url('images/col2.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+/**************************************//*  Skills  *//*******************************/
+
+.skill-head{
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+  text-align: center;
+  font-size:2rem;
+}
+
+.skills-para{
+    text-align: center;
+    font-weight:normal;
+    padding: 50px 400px;
+    padding-top: 5px;
+    margin-right: 0;
+    width: auto;
+    letter-spacing: 1px;
+    font-size: 2.2rem;
+    color: black;
+    position: relative;
+}
+
+/**************************************//*  Hobbies  *//*******************************/
+#hobbies{
+  background-color: black;
+  color: white;
+}
+.hobbies{
+  color: white;
+  text-align: center;
+  top: 50px;
+  left: 0;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.hobbies-para{
+  text-align: center;
+  font-weight:normal;
+  padding: 50px 400px;
+  padding-top: 5px;
+  margin-right: 0;
+  width: auto;
+  letter-spacing: 1px;
+  font-size: 2.2rem;
+  color: white;
+  position: relative;
+}
+
+.hobbies-container{
+  position: relative;
+}
+.hobbies-container::before{
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  background-image: url('images/h1.jpg');
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+}
+
+#music{
+  background-color: black;
+}
+
+.music{
+  color: #1DB954;
+  text-align: center;
+  top: 50px;
+  left: 0;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.music-artist{
+  margin: 20px 0px 30px 0px;
+  border-radius: 100%;
+  width: 200px;
+  height:200px;
+  z-index:1;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+.music-artist:hover{
+  transform: scale(1.2);
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.music-link{
+  text-decoration: none;
+  color: white;
+  z-index:2;
+  cursor: pointer;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+}
+
+.music-link:hover{
+  color:white;
+  transform: scale(5);
+}
