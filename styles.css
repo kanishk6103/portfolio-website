@@ -234,7 +234,7 @@ h1{
   -webkit-transition-timing-function: ease;
 }
 .music-artist:hover{
-  transform: scale(1.2);
+  transform: scale(1.15);
 }
 
 .feature-box{
@@ -242,6 +242,9 @@ h1{
 }
 
 .music-link{
+  text-decoration: none;
+}
+.music-artist-text{
   text-decoration: none;
   color: white;
   z-index:2;
@@ -251,7 +254,7 @@ h1{
   -webkit-transition-timing-function: ease;
 }
 
-.music-link:hover{
+.music-artist-text:hover{
   color:white;
-  transform: scale(5);
+  transform: scale(1.1);
 }
